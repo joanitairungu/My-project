@@ -3,9 +3,10 @@
 
 int main()
 {
-    printf("Hello world!\n");
-    printf("My name is Wanjiku!\n");
-    printf("My favorite colour is pink!\n");
-    printf("I am a christian!\n");
+    int a,b,c;
+    a=5;
+    b=7;
+    c=a+b;
+    printf("%d+%d=%d\n",a,b,c);
     return 0;
 }
